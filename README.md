@@ -10,6 +10,10 @@ npm install -g yo
 npm install -g generator-man
 ```
 
+hello man
+
+hello again man
+
 Then generate your new project:
 
 ```bash

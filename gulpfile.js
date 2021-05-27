@@ -16,7 +16,7 @@ gulp.task('static', function () {
     .pipe(eslint.failAfterError());
 });
 
-gul.hello('hello', function() {
+gulp.hello('hello', function() {
   return 'hello';
 });
 

@@ -16,6 +16,10 @@ gulp.task('static', function () {
     .pipe(eslint.failAfterError());
 });
 
+gul.hello('hello', function() {
+  return 'hello';
+});
+
 gulp.task('nsp', function (cb) {
   nsp({package: path.resolve('package.json')}, cb);
 });
